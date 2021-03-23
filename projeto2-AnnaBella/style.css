@@ -1,0 +1,23 @@
+
+body {
+    background-image: url('imagens/fundo.png');
+    
+}
+
+#conteudo {
+    background-color: white;
+}
+
+#navegacao {
+    background-color: silver;
+    height: 50px;
+    
+}
+
+.largura {
+    width: 900px;
+}
+
+#bottom {
+    text-align: center;
+}

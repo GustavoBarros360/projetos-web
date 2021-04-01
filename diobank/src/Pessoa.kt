@@ -6,13 +6,16 @@ class Pessoa {
     var cpf:String = "46220922808"
     private set
 
+    constructor()
+
+    fun personInfo():String{
+        return "Nome: $name \nCPF: $cpf"
+    }
 }
 
 fun main(){
     val gustavo = Pessoa()
-    //gustavo.cpf = "456"
-    println(gustavo.name)
-    println(gustavo.cpf)
 
+    println(gustavo.personInfo())
 
 }

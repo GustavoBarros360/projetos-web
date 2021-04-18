@@ -11,7 +11,7 @@ fun main(){
 
     println("Maior salario: ${salarios.maxOrNull()}")
     println("Menor salario: ${salarios.minOrNull()}")
-    println("Média salario: ${salarios.average()}")
+    println("Média salarial: ${salarios.average()}")
 
     makeLine()
 
@@ -19,4 +19,15 @@ fun main(){
         it > 1100.0
     }
     salariosMaiorQue.forEach{ println(it) }
+
+    makeLine()
+
+    println(salarios.count{ it in 2000.0..5000.0})
+
+    makeLine()
+    println(salarios.find{ it == 4000.0})
+    println(salarios.find{ it == 4040.0})
+
+    makeLine()
+    println(salarios.any{ it < 1000.0})
 }

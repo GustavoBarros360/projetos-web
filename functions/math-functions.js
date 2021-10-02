@@ -16,7 +16,5 @@ export function mmc() {
         console.log('abaixo do peso');
     } else if (imc < 24.99){
         console.log('abaixo do peso');
-    } else if (imc < 30){
-        console.log('sobrepeso');
     }
 }

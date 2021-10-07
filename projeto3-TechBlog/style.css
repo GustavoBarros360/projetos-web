@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link {
+    color: white;
+    font-weight: bold;
+}
+
+a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1E4040;
+    background: #255954;
+}
+
+ a:active {
+    color: #3A8C7D;
+}
+
+#main {
+    background: #71D99E;
+   /* border: 1px solid red;*/
+    text-align: center;
+}
+
+#tec {
+    color: #212226;
+}
+
+#blog {
+    color: #3A8C7D;
+}
+
+#navegacao {
+    position: relative;
+    padding: 20px;
+    top: -10px;
+}
+
+#logo {
+    
+    padding: 20px;
+}
+
+#corpo {
+    width: 80%;
+}
+
+.titulo {
+    display: inline;
+
+}
+
+.conteudo {
+    float: left;
+}
